@@ -5,9 +5,31 @@
  * @author Apraxia#2871
  * @authorID 514946037497069600
  */
+@import url("https://apraxias.github.io/P5R-theme /src/font/stylesheet.css"); /* Font */
 
+:root {
+    --P5-Normal: p5hattyregular;
+    --P5-Vanity: persona_5_menu_font_prototyRg;
+}
+
+/* Font */
+::placeholder,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--P5-Normal);
+}
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.channel-2QD9_O {
+    font-family: var(--P5-Vanity);
+}
+/* Main */
 #app-mount {
-    background: lightblue;
+    background: black;
 }
 
 .scroller-1Bvpku,

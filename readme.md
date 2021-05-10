@@ -1,0 +1,1 @@
+Discord theme for Persona 5 Royal
