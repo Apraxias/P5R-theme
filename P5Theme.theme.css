@@ -1,0 +1,27 @@
+/**
+ * @name Persona 5 Royal Theme
+ * @version auto
+ * @description
+ * @author Apraxia#2871
+ * @authorID 514946037497069600
+ */
+
+#app-mount {
+    background: lightblue;
+}
+
+.scroller-1Bvpku,
+.wrapper-3NnKdC,
+.bd-pub-button,
+.bg-h5JY_x,
+.scroller-1JbKMe,
+.privateChannels-1nO12o,
+.sidebar-2K8pFh,
+.panels-j1Uci_,
+.uploadArea-3QgLtW,
+.wrapper-2qzCYF,
+.app-2rEoOp,
+.chat-3bRxxu, 
+.threadSidebar-1o3BTy {
+    background: transparent;
+}
