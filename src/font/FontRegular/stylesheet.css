@@ -3,18 +3,6 @@
 
 
 @font-face {
-    font-family: 'persona_5_menu_font_prototyRg';
-    src: url('persona5menufontprototype-regular-webfont.woff2') format('woff2'),
-         url('persona5menufontprototype-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
     font-family: 'p5hattyregular';
     src: url('p5hatty-webfont.woff2') format('woff2'),
          url('p5hatty-webfont.woff') format('woff');

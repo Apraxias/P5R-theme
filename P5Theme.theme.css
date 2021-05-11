@@ -5,11 +5,12 @@
  * @author Apraxia#2871
  * @authorID 514946037497069600
  */
-@import url("https://apraxias.github.io/P5R-theme /src/font/stylesheet.css"); /* Font */
+@import url("https://apraxias.github.io/P5R-theme/src/font/stylesheet.css"); /* Font */
 
 :root {
     --P5-Normal: p5hattyregular;
     --P5-Vanity: persona_5_menu_font_prototyRg;
+    --P5-Red: red;
 }
 
 /* Font */
@@ -19,19 +20,82 @@ button,
 input,
 select,
 textarea {
-    font-family: var(--P5-Normal);
+    font-family: var(--P5-Normal), Arial, Helvetica, sans-serif;
 }
 strong {
     font-family: Arial, Helvetica, sans-serif;
 }
 .channel-2QD9_O {
-    font-family: var(--P5-Vanity);
+    font-family: var(--P5-Vanity), Arial, Helvetica, sans-serif;
 }
+/* Root */
+:root {
+    --header-primary: var(--P5-Red) !important;
+    --header-secondary: var(--P5-Red) !important;
+    --text-normal: var(--P5-Red);
+    --channels-default: var(--P5-Red);
+    --interactive-normal: var(--P5-Red);
+    --interactive-hover: var(--P5-Red);
+    --interactive-active: var(--P5-Red);
+    --text-link: var(--color-alert);
+    --text-muted: var(--P5-Red);
+    --interactive-muted: var(--color-mid);
+    --background-primary: var(--color-high);
+    --background-secondary: var(--color-high);
+    --background-secondary-alt: var(--color-high);
+    --background-tertiary: var(--color-high-trans);
+    --background-accent: #4f545c;
+    --background-floating: var(--color-high);
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: var(--color-mid);
+    --background-modifier-active: rgba(79, 84, 92, 0.24);
+    --background-modifier-selected: rgba(79, 84, 92, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --background-mentioned: var(--color-alert-trans);
+    --background-mentioned-hover: var(--color-alert-trans);
+    --background-message-hover: rgba(4, 4, 5, 0.07);
+    --background-help-warning: rgba(250, 166, 26, 0.1);
+    --background-help-info: rgba(0, 176, 244, 0.1);
+    --scrollbar-thin-thumb: var(--P5-Red);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--P5-Red);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--P5-Red);
+    --scrollbar-auto-scrollbar-color-track: transparent;
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05),
+        0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: var(--P5-Red);
+    --focus-primary: var(--color-alert);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: var(--color-high);
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: var(--color-high);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+  }
+
 /* Main */
 #app-mount {
     background: black;
 }
 
+.members-1998pB,
+.container-1r6BKw.themed-ANHk51,
+.container-3w7J-x,
+.container-1D34oG,
+.nowPlayingColumn-2sl4cE,
 .scroller-1Bvpku,
 .wrapper-3NnKdC,
 .bd-pub-button,
@@ -46,4 +110,13 @@ strong {
 .chat-3bRxxu, 
 .threadSidebar-1o3BTy {
     background: transparent;
+}
+
+
+.cozy-3raOZG .messageContent-2qWWxC {
+    background: var(--P5-Red);
+}
+
+.cozy-3raOZG .messageContent-2qWWxC:hover {
+    background: white;
 }
