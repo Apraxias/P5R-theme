@@ -10,7 +10,7 @@
 :root {
     --P5-Normal: p5hattyregular;
     --P5-Vanity: persona_5_menu_font_prototyRg;
-    --P5-Red: red;
+    --P5-Red: rgb(164, 0, 1);
 }
 
 /* Font */
@@ -21,13 +21,17 @@ input,
 select,
 textarea {
     font-family: var(--P5-Normal), Arial, Helvetica, sans-serif;
+    color: Black;
 }
 strong {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+//Friends list
 .channel-2QD9_O {
     font-family: var(--P5-Vanity), Arial, Helvetica, sans-serif;
 }
+
 /* Root */
 :root {
     --header-primary: var(--P5-Red) !important;
@@ -88,7 +92,7 @@ strong {
 
 /* Main */
 #app-mount {
-    background: black;
+    background: var(--P5-Red);
 }
 
 .members-1998pB,
@@ -113,10 +117,10 @@ strong {
 }
 
 
-.cozy-3raOZG .messageContent-2qWWxC {
-    background: var(--P5-Red);
-}
+/*.cozy-3raOZG .messageContent-2qWWxC {
+    background: var(--P5-Text);
 
-.cozy-3raOZG .messageContent-2qWWxC:hover {
-    background: white;
-}
+    &:hover {
+        font-size: 24px;
+    }
+}*/
